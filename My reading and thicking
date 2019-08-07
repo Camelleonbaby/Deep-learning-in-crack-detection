@@ -1,0 +1,8 @@
+1. Civi infrastructure including bridges, dams, and skyscapers are becoming susceptible to losing their designed functions as they 
+deteriorate from use. Onsite inspections still require closing bridge systems or building structures to diagnose them, which is time
+consuming and costly. 
+
+2. A number of vison-based methods for detecting damages, primarily using image processing techniques, have been propsed to redeem 
+the complexities. One significant advantage of IPTs is that almost all superficial defects can are likely identifiable. An early 
+comparative study on finding concrete cracks using four edge detection methods - fast Haar tranform, fast Fourier transform, Sobel 
+edge detector and Canny edge detector. 
