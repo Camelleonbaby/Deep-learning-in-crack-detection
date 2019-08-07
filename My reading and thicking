@@ -3,6 +3,26 @@ deteriorate from use. Onsite inspections still require closing bridge systems or
 consuming and costly. 
 
 2. A number of vison-based methods for detecting damages, primarily using image processing techniques, have been propsed to redeem 
-the complexities. One significant advantage of IPTs is that almost all superficial defects can are likely identifiable. An early 
+the complexities. One significant advantage of IPTs is that almost all superficial defects are likely identifiable. An early 
 comparative study on finding concrete cracks using four edge detection methods - fast Haar tranform, fast Fourier transform, Sobel 
-edge detector and Canny edge detector. 
+edge detector and Canny edge detector were conducted and it was found that the fast haar tranform performed the best. However, 
+edge detecion is an ill-posed problem, as the resutls are substantially affected by the noise created, mainly from lighting and distorion. 
+One effective method for overcoming these issues is denoising techniques. However, such methods used prior knowledge are thus not suitable 
+for real applicaions.
+
+3. Machine learning is a more possible solution for real-world situation. This method first collect signals form nondestuctive testing 
+and evaluate whether or not the collected signals indicate defects. Many types of artificial neural networks (ANN), including the 
+probabilistic neural network have been developed and adapted to research and industrial fields, but concolutional neural networks (CNN
+have beens highlighted in image recognition. 
+
+4. CNN can effectively capture the grid-like topology of images, unlike the standard NNs and they require fewer computations due to the 
+sparsely connected neurons and the pooling process. Moreover, CNNs are capable of differentiating a large number of classes. These aspects
+make CNNs an efficient image recognitio method. The previous issue of CNNs was the need for a vast amount of labeled data, which came 
+with a high-computational cost, but this issue was overcome through the use of well-annotated databases (ImageNet, CIFAR-10, CIFAR-100, MNIST)
+and parallel computations using graphic processing units.
+
+
+
+
+
+
